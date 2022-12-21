@@ -1,0 +1,2 @@
+Text count working in next version
+Checks for tasks themselves

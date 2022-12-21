@@ -1,0 +1,46 @@
+<TaskerData sr="" dvi="1" tv="5.1m">
+	<Task sr="task53">
+		<cdate>1520262328427</cdate>
+		<edate>1520584659382</edate>
+		<id>53</id>
+		<nme>SMS_Bomber_Notification</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">SMS Bomber</Str>
+			<Str sr="arg1" ve="3">SMS Bomber is running</Str>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Kill SMS Bomber</label>
+				<Action sr="action" ve="7">
+					<code>130</code>
+					<Str sr="arg0" ve="3">SMS_Bomber_Close</Str>
+					<Int sr="arg1">
+						<var>%priority</var>
+					</Int>
+					<Str sr="arg2" ve="3"/>
+					<Str sr="arg3" ve="3"/>
+					<Str sr="arg4" ve="3"/>
+					<Int sr="arg5" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Texts Sent</label>
+				<Action sr="action" ve="7">
+					<code>47</code>
+					<Str sr="arg0" ve="3">SMS_Bomber_TextTotal_Popup</Str>
+					<Int sr="arg1" val="3"/>
+					<Int sr="arg2" val="100"/>
+					<Int sr="arg3" val="100"/>
+					<Int sr="arg4" val="0"/>
+					<Int sr="arg5" val="0"/>
+					<Int sr="arg6" val="1"/>
+					<Int sr="arg7" val="1"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+	</Task>
+</TaskerData>

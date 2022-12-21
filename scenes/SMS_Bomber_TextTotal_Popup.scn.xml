@@ -1,0 +1,89 @@
+<TaskerData sr="" dvi="1" tv="5.1m">
+	<dmetric>1080.0,1920.0</dmetric>
+	<Scene sr="sceneSMS_Bomber_TextTotal_Popup">
+		<cdate>1520130315352</cdate>
+		<edate>1520584683907</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>562</heightPort>
+		<nme>SMS_Bomber_TextTotal_Popup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>675</widthPort>
+		<TextElement sr="elements0" ve="3">
+			<flags>4</flags>
+			<geom>13,0,661,162,6,0,294,72</geom>
+			<Str sr="arg0" ve="3">SMS Bomber Texts Sent</Str>
+			<Str sr="arg1" ve="3">SMS Bomber Texts Sent</Str>
+			<Int sr="arg2" val="18"/>
+			<Int sr="arg3" val="95"/>
+			<Str sr="arg4" ve="3">#FF00D7ED</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<TextElement sr="elements1" ve="3">
+			<clickTask>-936</clickTask>
+			<flags>5</flags>
+			<geom>15,177,643,253,15,177,643,328</geom>
+			<Str sr="arg0" ve="3">Total Text Display</Str>
+			<Str sr="arg1" ve="3">You've Sent %totaltexts Texts Through SMS Bomber</Str>
+			<Int sr="arg2" val="22"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>54</clickTask>
+			<flags>4</flags>
+			<geom>200,455,275,80,335,455,240,80</geom>
+			<Str sr="arg0" ve="3">Dismiss</Str>
+			<Str sr="arg1" ve="3">Dismiss</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Popup</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Task sr="task54">
+		<cdate>1520361013575</cdate>
+		<edate>1520361013575</edate>
+		<id>54</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>48</code>
+			<Str sr="arg0" ve="3">SMS_Bomber_TextTotal_Popup</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">SMS_Bomber_TextTotal_Popup</Str>
+		</Action>
+	</Task>
+</TaskerData>
